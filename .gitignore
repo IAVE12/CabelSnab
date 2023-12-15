@@ -1,0 +1,5 @@
+# Runtime data
+pids
+*.pids
+*.seed
+*.pid.lock
