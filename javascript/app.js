@@ -19,4 +19,9 @@
     window.addEventListener('scroll',()=>{
         const header = document.querySelector('.header__top-inner')
         header.classList.toggle("sticky",window.scrollY>0)
+        if(searchForm.classList.contains('active'))
+        searchForm.classList.remove('active')
+        search.classList.remove('hide')
+        cross.classList.remove('active')
+
     })
